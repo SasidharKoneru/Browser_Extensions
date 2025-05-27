@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Search Extension",
+  "version": "1.0",
+  "description": "Automatically performs Bing searches in Edge.",
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["https://www.bing.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Start Bing Search"
+  }
+}
